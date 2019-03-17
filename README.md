@@ -1,0 +1,2 @@
+# mixqr
+all qrCode
