@@ -140,13 +140,15 @@
     if(navigator.userAgent.match(/Alipay/i)) {
         // 支付宝
         // window.location.href = setting.aliUrl;
-document.querySelector('.code-footer').innerText = navigator.userAgent;
+// document.querySelector('.code-footer').innerText = navigator.userAgent;
+alert('taobao')
         window.location.href = 'https://www.taobao.com'
     } else if(navigator.userAgent.match(/MicroMessenger\//i)) {
         // 微信
         // document.getElementById("wechat-url").src = setting.qrcodeApi + urlEncode(setting.wechatUrl);
         // document.getElementById("code-wechat").style.display = "block";
-document.querySelector('.code-footer').innerText = navigator.userAgent;
+// document.querySelector('.code-footer').innerText = navigator.userAgent;
+alert('weixin')
         window.location.href ='https://mp.weixin.qq.com/a/~~YlLDA7Zr0xg~L8SYPG15IWR7FpxHgNZwnA~~'
 
     } else if(navigator.userAgent.match(/QQ\//i)) {
@@ -157,7 +159,8 @@ document.querySelector('.code-footer').innerText = navigator.userAgent;
         // 其它，显示“万能码”
         // document.getElementById("page-url").src = setting.qrcodeApi + urlEncode(window.location.href);
         // document.getElementById("code-all").style.display = "block";
-document.querySelector('.code-footer').innerText = navigator.userAgent;
+// document.querySelector('.code-footer').innerText = navigator.userAgent;
+alert('qita')
         window.location.href = 'https://www.baidu.com'
     }
 
